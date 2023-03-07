@@ -1,0 +1,13 @@
+2023-03-02T10:07:36+00:00 CRITICAL Uncaught ValueError: fgetcsv(): Argument #3 ($separator) must be a single character in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\product-import-export-for-woo\admin\classes\class-csvreader.php:48
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\product-import-export-for-woo\admin\classes\class-csvreader.php(48): fgetcsv(Resource id #199, 0, '', '"', '"')
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\product-import-export-for-woo\admin\modules\import\classes\class-import-ajax.php(674): Wt_Import_Export_For_Woo_Basic_Csvreader->get_sample_data('C:\\Users\\Korisn...', true)
+#2 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\product-import-export-for-woo\admin\modules\import\classes\class-import-ajax.php(81): Wt_Import_Export_For_Woo_Basic_Import_Ajax->mapping_page()
+#3 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\product-import-export-for-woo\admin\modules\import\import.php(1146): Wt_Import_Export_For_Woo_Basic_Import_Ajax->get_steps(Array)
+#4 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-includes\class-wp-hook.php(308): Wt_Import_Export_For_Woo_Basic_Import->ajax_main('')
+#5 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_iew_imp...')
+#8 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\product-import-export-for-woo\admin\classes\class-csvreader.php on line 48
+

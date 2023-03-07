@@ -1,0 +1,34 @@
+03-01-2023 @ 10:22:35 - ---[ New import started at 2023-03-01 10:22:35 ] PHP Memory: 256 MB, WP Memory: 40 MB
+03-01-2023 @ 10:22:35 - Preparing for import.
+03-01-2023 @ 10:22:35 - Row :1 - Parsing item.
+03-01-2023 @ 10:22:35 - Row :1 - Parsing failed. Reason: Importing Product(ID) conflicts with an existing post. ID: 1
+03-01-2023 @ 10:22:35 - Row :2 - Parsing item.
+03-01-2023 @ 10:22:35 - Row :2 - Parsing failed. Reason: Importing Product(ID) conflicts with an existing post. ID: 2
+03-01-2023 @ 10:22:35 - Row :3 - Parsing item.
+03-01-2023 @ 10:22:35 - Row :3 - Parsing failed. Reason: Importing Product(ID) conflicts with an existing post. ID: 3
+03-01-2023 @ 10:22:35 - Row :4 - Parsing item.
+03-01-2023 @ 10:22:35 - Importing as new product ID:14
+03-01-2023 @ 10:22:35 - Row :4 - Processing item.
+03-01-2023 @ 10:22:35 - Found simple product object. ID:14
+03-01-2023 @ 10:22:35 - Row :4 - Product imported successfully.
+03-01-2023 @ 10:22:35 - Row :5 - Parsing item.
+03-01-2023 @ 10:22:35 - Importing as new product ID:15
+03-01-2023 @ 10:22:35 - Row :5 - Processing item.
+03-01-2023 @ 10:22:35 - Found simple product object. ID:15
+03-01-2023 @ 10:22:35 - Row :5 - Product imported successfully.
+03-01-2023 @ 10:22:35 - Row :6 - Parsing item.
+03-01-2023 @ 10:22:35 - Importing as new product ID:16
+03-01-2023 @ 10:22:35 - Row :6 - Processing item.
+03-01-2023 @ 10:22:35 - Found simple product object. ID:16
+03-01-2023 @ 10:22:35 - Row :6 - Product imported successfully.
+03-01-2023 @ 10:22:35 - Row :7 - Parsing item.
+03-01-2023 @ 10:22:35 - Importing as new product ID:17
+03-01-2023 @ 10:22:35 - Row :7 - Processing item.
+03-01-2023 @ 10:22:35 - Found simple product object. ID:17
+03-01-2023 @ 10:22:35 - Row :7 - Product imported successfully.
+03-01-2023 @ 10:22:35 - Row :8 - Parsing item.
+03-01-2023 @ 10:22:35 - Importing as new product ID:18
+03-01-2023 @ 10:22:35 - Row :8 - Processing item.
+03-01-2023 @ 10:22:35 - Found simple product object. ID:18
+03-01-2023 @ 10:22:36 - Row :8 - Product imported successfully.
+03-01-2023 @ 10:22:36 - ---[ Import ended at 2023-03-01 10:22:36]---
