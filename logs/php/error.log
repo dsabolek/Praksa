@@ -21,3 +21,36 @@ Stack trace:
 [02-Mar-2023 11:23:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [02-Mar-2023 11:23:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [02-Mar-2023 11:23:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Mar-2023 08:25:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:03:10 UTC] PHP Warning:  Undefined array key "publishable_key" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\woocommerce-gateway-stripe\includes\admin\class-wc-rest-stripe-account-keys-controller.php on line 196
+[10-Mar-2023 08:03:10 UTC] PHP Warning:  Undefined array key "secret_key" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\woocommerce-gateway-stripe\includes\admin\class-wc-rest-stripe-account-keys-controller.php on line 197
+[10-Mar-2023 08:03:10 UTC] PHP Warning:  Undefined array key "test_publishable_key" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\woocommerce-gateway-stripe\includes\admin\class-wc-rest-stripe-account-keys-controller.php on line 198
+[10-Mar-2023 08:03:10 UTC] PHP Warning:  Undefined array key "test_secret_key" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\woocommerce-gateway-stripe\includes\admin\class-wc-rest-stripe-account-keys-controller.php on line 199
+[10-Mar-2023 08:03:10 UTC] PHP Warning:  Undefined array key "publishable_key" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\woocommerce-gateway-stripe\includes\admin\class-wc-rest-stripe-account-keys-controller.php on line 206
+[10-Mar-2023 08:03:10 UTC] PHP Warning:  Undefined array key "secret_key" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\woocommerce-gateway-stripe\includes\admin\class-wc-rest-stripe-account-keys-controller.php on line 207
+[10-Mar-2023 08:03:10 UTC] PHP Warning:  Undefined array key "webhook_secret" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\woocommerce-gateway-stripe\includes\admin\class-wc-rest-stripe-account-keys-controller.php on line 208
+[10-Mar-2023 08:03:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:03:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:04:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:04:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:35:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:35:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:36:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:36:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:40:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:40:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:53:16 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:53:16 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:57:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[10-Mar-2023 08:57:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
