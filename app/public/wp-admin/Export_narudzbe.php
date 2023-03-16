@@ -15,22 +15,42 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-    
-$podaci1 = $wpdb->get_results("SELECT order_id, date_created, num_items_sold, net_total, status, customer_id FROM `wp_wc_order_stats` ");
-     foreach ($podaci1 as $podaci1);
+$p1 = "SELECT `order_item_id`, `order_id`, `product_id`, `date_created`, `product_gross_revenue` FROM `wp_wc_order_product_lookup`";
+$p2 = "SELECT `order_item_name`, `order_item_id` FROM `wp_woocommerce_order_items`";
+$p3 = "SELECT `status`, `customer_id`, `order_id` FROM `wp_wc_order_stats` ";
+$ispis = $p1 . ' ' . $p2 . ' ' . $p3;
+$result = $conn->query($ispis);
 
-$podaci2 = $wpdb->get_results("SELECT order_item_id, order_item_name FROM `wp_woocommerce_order_items` ");
-    foreach ($podaci2 as $podaci2);
- $rezultat = $podaci1 . ' ' . $podaci2;
-      echo $rezultat ->post_title;
+$n_dok = "exportNarudzi.csv";
+$file = fopen($n_dok, 'w');
+$header = array( ‘id narudžbe’, ‘datum narudžbe’, ‘podaci o kupcu’, ‘podaci o dostavi’, 
+‘podaci o plaćanju’, ‘status narudzbe’, ‘podaci o proizvodima’);
+fputcsv($file, $header);
 
-$header_args = array( ‘ id narudžbe’, ‘datum narudžbe’, ‘podaci o kupcu’, ‘podaci o dostavi’, 
-                    ‘o plaćanju’, ‘status’, ‘podaci o proizvodima’);
-    header('Content-Type: text/csv; charset=utf-8');
-    header('Content-Disposition: attachment; filename=csv_export.csv');
-    $output = fopen( 'php://output', 'w' );
-    ob_end_clean();
-    fputcsv($output, $header_args);
-    exit();
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        $id_narudžbe = $row['order_id'];
+        $id_proizvoda = $row['product_id'];
+        $podaci_proizvoda = $row['order_item_name'];
+        $datum_narudžbe = $row['order_date'];
+        $status_narudzbe = $row['status'];
+        $kreirano = $row['date_created'];
+        $id_kupac = $row['customer_id'];
+        $cijena = $row['product_gross_revenue'];
 
-    ?>
+        $podaci = array($id_narudžbe, $id_proizvoda, $podaci_proizvoda, $datum_narudžbe, $status_narudzbe, $kreirano, $id_kupac, $cijena);
+        fputcsv($file, $podaci);
+    }
+}
+
+fclose($file);
+
+// Download the CSV file
+header('Content-Type: application/csv');
+header('Content-Disposition: attachment; filename="' . $n_dok . '";');
+
+readfile($n_dok);
+
+// Close database connection
+$conn->close();
+?>
