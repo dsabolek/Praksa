@@ -54,3 +54,29 @@ Stack trace:
 [10-Mar-2023 08:53:16 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [10-Mar-2023 08:57:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [10-Mar-2023 08:57:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $page in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 44
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $store_url in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 47
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $consumer_key in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 52
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $consumer_secret in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 52
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $page in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 77
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $page in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 44
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $store_url in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 47
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $consumer_key in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 52
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $consumer_secret in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 52
+[14-Mar-2023 09:53:25 UTC] PHP Warning:  Undefined variable $page in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 77
+[14-Mar-2023 09:54:19 UTC] PHP Warning:  Undefined variable $page in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 44
+[14-Mar-2023 09:54:19 UTC] PHP Warning:  Undefined variable $store_url in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 47
+[14-Mar-2023 09:54:19 UTC] PHP Warning:  Undefined variable $consumer_key in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 52
+[14-Mar-2023 09:54:19 UTC] PHP Warning:  Undefined variable $consumer_secret in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 52
+[14-Mar-2023 09:54:19 UTC] PHP Warning:  Undefined variable $page in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 77
+[14-Mar-2023 09:54:20 UTC] PHP Warning:  Undefined variable $page in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 44
+[14-Mar-2023 09:54:20 UTC] PHP Warning:  Undefined variable $store_url in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 47
+[14-Mar-2023 09:54:20 UTC] PHP Warning:  Undefined variable $consumer_key in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 52
+[14-Mar-2023 09:54:20 UTC] PHP Warning:  Undefined variable $consumer_secret in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 52
+[14-Mar-2023 09:54:20 UTC] PHP Warning:  Undefined variable $page in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\export\export.php on line 77
+[14-Mar-2023 09:54:33 UTC] PHP Parse error:  syntax error, unexpected identifier "narudžbe’", expecting ")" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 19
+[14-Mar-2023 09:54:34 UTC] PHP Parse error:  syntax error, unexpected identifier "narudžbe’", expecting ")" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 19
+[14-Mar-2023 09:54:34 UTC] PHP Parse error:  syntax error, unexpected identifier "narudžbe’", expecting ")" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 19
+[14-Mar-2023 09:55:33 UTC] PHP Parse error:  syntax error, unexpected identifier "narudžbe’", expecting ")" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe-2\Export_narudzbe.php on line 19
+[14-Mar-2023 09:55:33 UTC] PHP Parse error:  syntax error, unexpected identifier "narudžbe’", expecting ")" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe-2\Export_narudzbe.php on line 19
+[14-Mar-2023 09:55:34 UTC] PHP Parse error:  syntax error, unexpected identifier "narudžbe’", expecting ")" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe-2\Export_narudzbe.php on line 19
