@@ -113,3 +113,61 @@ Stack trace:
 [16-Mar-2023 09:10:45 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
 [16-Mar-2023 09:12:23 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
 [16-Mar-2023 09:12:23 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:15:59 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:16:02 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:16:23 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:16:30 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:16:31 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:17:34 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:17:34 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:18:10 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:18:16 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:18:16 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:18:48 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 30
+[16-Mar-2023 11:32:47 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('Export_narudzbe...')
+#2 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(58): activate_plugin('Export_narudzbe...', 'http://praksa.l...', false)
+#3 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:47 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('Export_narudzbe...')
+#2 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:47 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('Export_narudzbe...')
+#2 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:50 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('Export_narudzbe...')
+#2 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(58): activate_plugin('Export_narudzbe...', 'http://praksa.l...', false)
+#3 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:50 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('Export_narudzbe...')
+#2 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:50 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('Export_narudzbe...')
+#2 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+[16-Mar-2023 11:34:09 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 32
+[16-Mar-2023 11:34:10 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 32
+[16-Mar-2023 11:34:10 UTC] PHP Warning:  Undefined variable $conn in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 32

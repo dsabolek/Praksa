@@ -10,3 +10,47 @@
 
 2023-03-16T09:01:19+00:00 CRITICAL syntax error, unexpected identifier "narudžbe’", expecting ")" in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 26
 
+2023-03-16T11:32:47+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('Export_narudzbe...')
+#2 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(58): activate_plugin('Export_narudzbe...', 'http://praksa.l...', false)
+#3 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+
+2023-03-16T11:32:47+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('Export_narudzbe...')
+#2 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+
+2023-03-16T11:32:47+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('Export_narudzbe...')
+#2 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+
+2023-03-16T11:32:50+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('Export_narudzbe...')
+#2 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(58): activate_plugin('Export_narudzbe...', 'http://praksa.l...', false)
+#3 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+
+2023-03-16T11:32:50+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('Export_narudzbe...')
+#2 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+
+2023-03-16T11:32:50+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php:38
+Stack trace:
+#0 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\Korisnik\Local Sites\praksa\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('Export_narudzbe...')
+#2 {main}
+  thrown in C:\Users\Korisnik\Local Sites\praksa\app\public\wp-content\plugins\Export_narudzbe\Export_narudzbe.php on line 38
+
